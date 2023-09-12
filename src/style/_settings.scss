@@ -1,5 +1,28 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800&family=Inika:wght@400;700&display=swap');
+
+  // Colors
+$constWhite: #D5D5D5;
+$brownColor: #C7AA74;
+$brownColor2: #957964;
+
+// Fonts
+$fontInika: 'Inika', serif;
+$fontInconsolata: 'Inconsolata', monospace;
+
+// Transparents
+$Browntransparent1: rgba(189,170,116,15%);
+$Browntransparent2: rgba(189,170,116,30%);
+$Browntransparent3: rgba(189,170,116,50%);
+$Brown2Transparent: rgba(149, 121, 100, 30%);
+
 body {
     background-color: black !important;
     color: azure;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
 }

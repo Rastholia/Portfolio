@@ -9,8 +9,6 @@ import ContactMe from "./pages/ContactMe.jsx";
 import Skills from "./pages/Skills.jsx";
 import Services from "./pages/Services.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
-import Header from "./pages/Header.jsx";
-import Footer from "./pages/footer.jsx";
 
 const route = createBrowserRouter([
   {
@@ -44,8 +42,6 @@ const route = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={route} />
-    <Footer />
   </React.StrictMode>
 );
